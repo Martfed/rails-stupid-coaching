@@ -1,0 +1,6 @@
+<form action="/ask">
+  <input type="text" name="question">
+  <input type="submit" value="Ask!" id="button">
+</form>
+
+<%= link_to "Click to see answer", "/answer?question=#{@answer}" %>
